@@ -85,7 +85,7 @@ const Header = ({
             'site-header-inner',
             bottomDivider && 'has-bottom-divider'
           )}>
-          <Logo />
+          <Logo class='svg'/>
           {!hideNav &&
             <>
               <button
@@ -105,6 +105,7 @@ const Header = ({
                     'header-nav',
                     isActive && 'is-active'
                   )}>
+                
                 <div className="header-nav-inner">
                   <ul className={
                     classNames(
@@ -112,17 +113,10 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Documentation</Link>
+                      <Link to="#0" onClick={closeMenu}></Link>
                     </li>
                   </ul>
-                  {!hideSignin &&
-                    <ul
-                      className="list-reset header-nav-right"
-                    >
-                      <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link>
-                      </li>
-                    </ul>}
+                  
                 </div>
               </nav>
             </>}

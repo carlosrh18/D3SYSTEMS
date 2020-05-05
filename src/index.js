@@ -18,6 +18,8 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
+console.log("%cInteresado en trabajar con nosotros?,manda tu cv por la liga de whatsapp :-)", "background: white; color: black; font-size: x-large")
+
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA

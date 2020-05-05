@@ -44,8 +44,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Build up the whole picture',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Desarrollamos y construímos tu identidad digital',
+    paragraph: 'Potencializa tu negocio con software hecho a la medida, soluciones de e-commerce y soluciones de BIG-DATA'
   };
 
   return (
@@ -71,10 +71,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Sistemas e-commerce personalizados
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Desarrollamos el sistema e-commerce para tu negocio. Incrementa tus ventas y expande tu audencia con nuestras soluciones e-commerce.
                     </p>
                 </div>
               </div>
@@ -93,10 +93,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Sitio Web
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Desarrollamos un sitio web personalizado que se ajuste a las necesidades de tu negocio. 
                     </p>
                 </div>
               </div>
@@ -115,84 +115,20 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Identidad digital
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Consultoría sobre la identidad digital de tu negocio y como puedes incrementar tus ventas usando tecnologías como google analytics y posicionamiento SEO.
                     </p>
                 </div>
               </div>
             </div>
 
-            <div className="tiles-item reveal-from-bottom">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-04.svg')}
-                      alt="Features tile icon 04"
-                      width={64}
-                      height={64} />
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Robust Workflow
-                    </h4>
-                  <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-05.svg')}
-                      alt="Features tile icon 05"
-                      width={64}
-                      height={64} />
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Robust Workflow
-                    </h4>
-                  <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-06.svg')}
-                      alt="Features tile icon 06"
-                      width={64}
-                      height={64} />
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Robust Workflow
-                    </h4>
-                  <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
-                </div>
-              </div>
+          
             </div>
 
           </div>
         </div>
-      </div>
     </section>
   );
 }

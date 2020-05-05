@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Desarrollamos tu tienda online',
+    paragraph: 'Haz crecer tu negocio y tus clientes con una plataforma e-commerce hecha a la medida'
   };
 
   return (
@@ -67,13 +67,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Software personalizado
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Tu sitio web e-commerce a la medida
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Vende por internet y llega a nuevos clientes.
                   </p>
               </div>
               <div className={
@@ -83,7 +83,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={require('./../../assets/images/eshop2.jpg')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -93,14 +93,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Software personalizado
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Expande tu negocio con un sitio web
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                Sitos web diseñados y desarrollados de forma personalizada para tu negocio resaltando todas las ventajas y virtudes de tu marca.                  </p>
               </div>
               <div className={
                 classNames(
@@ -109,7 +108,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={require('./../../assets/images/website.jpg')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -119,13 +118,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Software personalizado
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Identidad digital & SEO
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                
                   </p>
               </div>
               <div className={
@@ -135,7 +134,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={require('./../../assets/images/seo.png')}
                   alt="Features split 03"
                   width={528}
                   height={396} />
